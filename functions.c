@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /* TO PRINT CHAR */
 
@@ -148,7 +148,7 @@ int print_int(va_list types, char buffer[], int flags, int width, int precision,
 /* PRINT BINARY */
 /**
  * print_binary - prints an unsigned number
- *  @types: list a of arguments
+ * @types: list a of arguments
  * @buffer: buffer array to handle print
  * @flags: calculates active flags
  * @width: get width
